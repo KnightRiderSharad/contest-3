@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#searchBar,#token_input {
+    width: 50% !important;
+    padding: 8px 12px;
+    margin-left: 250px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    float: left;
+    font-size: large;
+}
+
+#searchButton,#token_btn {
+    width: 10% !important;
+    background-color: #0015ff;
+    color: white;
+    padding: 12px 14px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#output{
+    margin: 20px 20px;
+}
+
+#output img {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+.token{
+    display: none;
+}

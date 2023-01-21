@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp or Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field hide">
+                        <input type="text" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="input-field hide">
+                        <input type="email" id="signup-email" name="signup_email"placeholder="Email">
+                    </div>
+                    <div class="input-field hide">
+                        <input type="password" id="signup-password" name="signup_password" placeholder="password">
+                    </div>
+                    <div class="input-field hide">
+                        <input type="password" id="confirm-password" placeholder="Confirm password*">
+                    </div>
+                    <div class="input-field visible">
+                        <input type="Email" id="signin-email" placeholder="Email">
+                    </div>
+                    <div class="input-field visible">
+                        <input type="password" id="signin-password" placeholder="password">
+                    </div>
+                    <p id="error"></p>
+                </div>
+                <div class="button-field">
+                    <button type="button" id="signInbtn" class="disable" onclick="logginIn()">Log In</button>
+                    <button type="button" id="signUpbtn">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
